@@ -24,7 +24,7 @@
 
 1. **Clone the repository** (or download the source files):
    ```bash
-   git clone https://github.com/yourusername/weatherapp.git
+   git clone https://github.com/QUANTA-X/Weather-App/tree/467f5a89d6a8855d9679a2715667716d768ab36c
    cd weatherapp
    ```
 
