@@ -43,12 +43,12 @@
 1. **Compile the application**:
    Open a command prompt/terminal and navigate to the project directory, then run:
    ```
-   javac -cp "json-20210307.jar" WeatherApp.java WeatherAPIService.java
+   javac --module-path "lib\javafx-sdk-23.0.1\lib" --add-modules javafx.controls,javafx.fxml -cp "json-20210307.jar;org.json-1.6-20240205.jar" -d out -Xlint:deprecation src\WeatherApp.java src\WeatherAPIService.java
    ```
 
 2. **Run the application**:
    ```bash
-   java -cp ".;json-20210307.jar" WeatherApp
+  java --module-path "lib\javafx-sdk-23.0.1\lib" --add-modules javafx.controls,javafx.fxml -cp "out;json-20210307.jar;org.json-1.6-20240205.jar" WeatherApp
    ```
 
 ### Usage
